@@ -4,8 +4,9 @@
   "description": "3-layer antisocial language detector for online games",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "web": "node server.js"
+    "start": "node server.js",
+    "web": "node server.js",
+    "electron": "electron ."
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
